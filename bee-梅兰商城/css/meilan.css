@@ -1,0 +1,407 @@
+/*初始化*/
+body,div,p,h3,ul,li,input,button{
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size:12px;
+	font-family: simsun;
+}
+img{
+	border:0 none;
+}
+input{
+	border:0 none;
+	outline-style: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear:both;
+}
+.clearfix{
+	zoom:1;
+}
+/*顶部导航*/
+header{
+	height: 26px;
+	background-color: #f7f7f7;
+}
+.top-nav{
+	width: 970px;
+	margin: 0 auto;
+}
+.top-nav-l{
+	float: left;
+	line-height: 26px;
+}
+.top-nav-r{
+	float: right;
+	line-height: 26px;
+}
+.top-nav-r ul li{
+	float: right;
+	padding:0 10px;/*左右10px*/
+}
+/*logo部分*/
+.logo{
+	width: 970px;
+	margin: 0 auto;
+	height: 100px;
+}
+.logo1{
+	margin-left: 10px;
+}
+.search{
+	width: 530px;
+	height: 42px;
+	background-color: #f7f7f7;
+	margin-top: 30px;
+}
+.search input{
+	width: 420px;
+	height: 30px;
+	border: 1px solid #A6A6A6;
+	margin: 5px 0 5px 4px;
+	vertical-align: top;
+	float: left;
+}
+.search button{
+	width: 100px;
+	height: 32px;
+	background-color: #2f70d0;
+	float: left;
+	margin-top: 4px;
+	font-size: 24px;
+	color: white;
+}
+.mainnav{
+	width: 970px;
+	margin: 0 auto;
+	height: 29px;
+	/*background-color: #f7f7f7;
+	border-bottom:1px solid #0266a3;*/
+	border-bottom:2px solid #0266A3;
+	margin-bottom: 10px;
+}
+.mainnav ul li{
+			float: left;
+		}
+.mainnav ul li a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	padding:0 15px;
+	color: #0266A3;
+}
+.mainnav ul li a:hover{
+	background: #0266A3;
+	color: #fff;
+}
+/*bannner部分*/
+.banner{
+	width: 970px;
+	margin: 0 auto;
+	height: 210px;
+/*	background-color: #f7f7f7;*/
+}
+.banner_l{
+	width: 200px;
+	height: 210px;
+	background-color: purple;
+}
+
+.banner-cen{
+	width: 520px;
+	height: 210px;
+	margin-left: 10px;
+}
+.banner_r{
+	width: 230px;
+	height: 210px;
+}
+.banner_ltop{
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 39px;
+	background-color: #0266A3;
+	color: white;
+	font-size: 20px;
+}
+.banner_lbot{
+	width: 230px;
+	height: 180px;
+	margin-bottom: 0px;
+	background-color: #f7f7f7;
+}
+.banner_l ul li{
+	height: 20px;
+	padding-left: 39px;
+	padding-top: 10px;
+}
+.banner_rtop{
+	height: 95px;
+/*	background-color: red;*/
+}
+.banner_rbot{
+	height: 93px;
+	margin-top: 22px;
+/*	background-color: blue;*/
+}
+/*建筑材料部分*/
+.archi{
+	width: 970px;
+	margin: 0 auto;
+	height: 410px;
+	
+}
+.archi_top{
+	height: 37px;
+	margin-top:15px;
+	background-color: #ecf1f7;
+	color: #444444;
+	line-height: 37px;
+	padding-left: 20px;
+	font-size: 20px;
+	border-top: 3px solid #c3d7e4;
+}
+.archi_bot{
+	height: 347px;
+	margin-bottom: 0px;
+	background-color: #ffffff;
+	margin-top: 12px;
+	border: 1px solid #c3d7e4;
+}
+.archi_bot_l{
+	width: 730px;
+	height: 347px;
+}
+.archi_bot_r{
+	width: 230px;
+	height: 347px;
+	border:1px solid #E0E6F0;
+}
+.archi_bot_r_title{
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px solid #E0E6F0;
+	background: #FAFAFA;
+	padding-left: 15px;
+}
+.archi_bot_r ul{
+	margin-top: 17px;
+}
+
+.archi_bot_r ul li{
+	height: 24px;
+	background: url("images/li_bg.png") no-repeat 10px 3px;
+	padding-left: 25px;
+}
+/*左上盒子*/
+.archi_bot_l_t{
+	width: 680px;
+	height: 154px;
+	margin: 15px 0 14px  26px;: 17px;
+	border-bottom: 1px solid #c3d7e4;
+
+}
+/*左上左盒子*/
+.archi_bot_l_t_l{
+	width: 340px;
+	height: 154px;
+}
+.archi_bot_l_t_ll{
+	width: 100px;
+	height: 154px;
+}
+.archi_bot_l_t_ll_t{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #c3d7e4;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.archi_bot_l_t_ll_t img{
+	margin-top: 18px;
+}
+.archi_bot_l_t_ll_b button{
+	width: 98px;
+	height: 26px;
+	color: white;
+	background: #0a84e3;
+}
+.archi_bot_l_t_lr{
+	width: 230px;
+	height: 154px;
+	padding-left: 10px;
+}
+/*字体调节颜色大小等*/
+.archi_bot_l_t_lr p{
+	font-size:14px;
+}
+
+.archi_bot_l_t_lr p.p1{
+	height: 28px;
+	margin-top: 10px;
+}
+.archi_bot_l_t_lr p.p2{
+	color:#863E01;
+	font-size:12px;
+	height: 49px;
+}
+.archi_bot_l_t_lr p.p3{
+	height: 38px;
+}
+.archi_bot_l_t_lr p.p3 span,.archi_bot_l_t_lr p.p4 span{
+	font-weight: 700;
+	color:red;
+}
+.archi_bot_l_t_lr p.p3 del{
+	font-size: 12px;
+	color:#555;
+}
+/*左边右盒子*/
+.archi_bot_l_t_r{
+	width: 340px;
+	height: 154px;
+}
+/*左下盒子*/
+.archi_bot_l_b{
+	width: 680px;
+	height: 154px;
+	margin: 15px 0 14px  26px;
+}
+/*儿童安全座椅*/
+.child{
+	width: 970px;
+	margin: 0 auto;
+	height: 374px;
+/*	background-color: red;*/
+}
+/*上盒子*/
+.child_t{
+	height: 31px;
+	background-color: #ecf1f7;
+	border-top: 3px solid #c3d7e4;
+	line-height: 31px;
+	padding-left: 20px;
+	font-size: 20px; 
+	margin-top: 10px;
+}
+/*下盒子*/
+.child_b{
+	height: 330px;
+	margin-top: 10px;
+
+}
+/*下左盒子*/
+.child_bl{
+	width: 725px;
+	height: 330px;
+}
+/*下左上盒子*/
+.child_bl_t{
+	width: 725px;
+	height: 25px;
+	border-bottom: 2px solid #00B0E7;
+}
+/*下左下盒子*/
+.child_bl_b{
+	width: 725px;
+	height: 286px;
+	padding-top: 20px;
+	border: 2px solid #cacaca;
+}
+.child_bl_b1{
+	width: 160px;
+	height: 280px;
+	margin: 5px 0 0 14px;
+	text-align: center;
+}
+.child_bl_b1 p.et01{
+	margin-top: 9px;
+	height: 43px;
+}
+.child_bl_b1 p.et02,.baby-pic p.et03,.baby-pic p.et04{
+	height: 24px;
+	color:#666;
+}
+.child_bl_b1 p span,.baby-pic p del{
+	color:#660000;
+}
+/*下右盒子*/
+.child_br{
+	width: 220px;
+	height: 330px;
+}
+/*下右上盒子*/
+.child_br_t{
+	width: 220px;
+	height: 132px;
+	border: 2px solid #cacaca;
+}
+/*/*下右下盒子*/
+.child_br_b{
+	width: 220px;
+	height: 179px;
+	margin-top: 11px;
+	border: 2px solid #cacaca;
+}
+/*友情链接*/
+.friend{
+	width: 970px;
+	height: 102px;
+	border-top: 1px solid #ddd;
+	border-bottom: 2px solid #0A7EC3;
+	margin-top: 18px;
+	margin: 0 auto;
+}
+.friend p{
+	height: 38px;
+	float: left;
+	
+}
+.friend ul,.friend p{
+	margin-top: 30px;
+}
+.friend ul li{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 14px;
+}
+/*版权*/
+.copyright{
+	text-align: center;
+}
+.copyright ul{
+	width: 440px;
+	margin: 15px auto 13px;
+}
+.copyright ul li{
+	float: left;
+}
+.copyright ul li a{
+	display: inline-block;
+	padding:0 10px;
+	border-right: 1px solid #ccc;
+}
+.copyright p{
+	height: 25px;
+}
